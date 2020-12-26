@@ -22,7 +22,6 @@
                     src="assets/asset.glb"
                 ></a-asset-item>
             </a-assets>
-
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
@@ -30,7 +29,13 @@
                     scale="0.5513664972383406 0.5513664972383406 0.5513664972383406"
                     gps-entity-place="latitude: 23.75026724468433; longitude: 90.41558821015131;"
                 ></a-entity>
-
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    scale="0.5513664972383406 0.5513664972383406 0.5513664972383406"
+                    gps-entity-place="latitude: 23.750278296713187; longitude: 90.41553538362346;"
+                ></a-entity>
             <a-camera gps-camera rotation-reader></a-camera>
         </a-scene>
     </body>
